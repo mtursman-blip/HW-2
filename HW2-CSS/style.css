@@ -1,0 +1,56 @@
+body{
+  font-family:cursive;
+  font-size: 100%;
+}
+
+header{
+  background-color: paleturquoise;
+}
+
+nav{
+background-color: palevioletred;
+display:inline-block;
+width: 80%;
+}
+
+header img {
+    width: 10%;
+}
+
+main{
+  background-color: violet;
+  font-size: 120%;
+}
+footer{background-color: palegoldenrod ;}
+
+h1{text-align: center;
+font-family: 'Lucida Sans';
+color: navy
+}
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    align-items: start;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex img {
+    width: 20%;
+}
+/*li{
+  display: inline-block;
+  width: 27%;
+}
+
+p{line-height: 40px;}*/
